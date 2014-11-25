@@ -1,3 +1,8 @@
-A simple content managament systems developed in Rails 4
 
+
+A simple content managament system
+-----------------------------------
+Ruby 2
+Rails 4
+MySQL 
 
