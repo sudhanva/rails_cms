@@ -2,9 +2,7 @@
 
 == A simple content managament system
 -----------------------------------
-	Ruby 2
-	Rails 4
-	MySQL 
+Demo: 
 
 == Welcome to Rails
 	
