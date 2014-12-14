@@ -5,8 +5,8 @@ class CreateSections < ActiveRecord::Migration
 	    t.string "name" 
       t.integer "position" 
       t.boolean "visible"  ,:default=>false
-      t.string "context_text"
-      t.text "context"
+      t.string "content_type"
+      t.text "content"
       t.timestamps
     end
     add_index("sections","page_id")

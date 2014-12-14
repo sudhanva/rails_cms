@@ -1,7 +1,7 @@
 # Authored By   : Sudhanva Shivangere
 class SubjectsController < ApplicationController
   
-  layout false
+  layout "admin"
   def index
     @subjects=Subject.sorted
   end

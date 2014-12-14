@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SimpleCMS <%=  @page_title || "Admin" %></title>
+</head>
+<body>
+<div id="header">
+<h2>Simple CMS</h2>
+</div>
+<div id="main">
+	<%if !flash[:notice].blank?%>
+		<div class="notice"><%= flash[:notice]%>
+		</div>
+	<%end%>
+</div>
+<div id="content">
+<%= yield %>
+</div>
+<div id="footer">
+<p>Copyright Sudhanva Shivangere</p>
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-
+<%@page_title="Subjects"%>
 <div class="subjects index">
 <h2>Subjects</h2>
 <%= link_to("Add new subjects",{:action=>'new'},:class=>"new index")%>
@@ -28,5 +28,3 @@
 <br>
 </div>
 
-<%if !flash[:notice].blank?%>
-<div class="notice"><%= flash[:notice]%></div><%end%>

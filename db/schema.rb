@@ -60,8 +60,8 @@ ActiveRecord::Schema.define(version: 20141205063940) do
     t.string   "name"
     t.integer  "position"
     t.boolean  "visible",      default: false
-    t.string   "context_text"
-    t.text     "context"
+    t.string   "content_type"
+    t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

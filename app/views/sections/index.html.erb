@@ -1,0 +1,25 @@
+<%@page_title="Sections"%>
+<div>
+	<%= link_to('Add Sections',:action=>'new')%>
+
+<table>
+
+<tr>
+	<th>Name</th>
+	<th>Link</th>
+	<th>Position</th>
+	<th>Visible</th>
+</tr>
+
+<%@sections.each do |section|%>
+<tr>
+<td><%=section.name%></td>
+<td><%=section.position%></td>
+<td><%=section.visible%></td>
+<td><%=section.context_text%></td>
+<td><%=section.context%></td>
+</tr>
+
+</table>
+<%end%>
+</div>
